@@ -41,8 +41,9 @@
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.6.7",
     "dotenv": "^16.4.5",
-    "axios": "^1.6.7"
+    "mcp-proxy-auth": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",

@@ -19,4 +19,4 @@ ENV TAVILY_API_KEY=your-api-key-here
 
 RUN npm ci --ignore-scripts --omit-dev
 
-ENTRYPOINT ["node", "build/index.js"]
+ENTRYPOINT ["npx", "mcp-proxy", "node", "build/index.js"]
